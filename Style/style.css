@@ -14,14 +14,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.logo{
+.logo,.item,.menu{
     border:1px solid brown;
-}
-.menu{
-   border: 1px solid darkgoldenrod;
-}
-.item{
-    border:1px solid crimson;
 }
 .row2{
     height: 150px;
@@ -49,46 +43,23 @@
     border-bottom: 1px solid green;
     height: 50%;
 }
-.s1{
-    border-right: 1px solid greenyellow;
+.s1,.s2,.s3{
+    border-right: 1px solid red;
 }
-.s2{
-    border-right: 1px solid greenyellow;
-}
-.s3{
-    border-right: 1px solid greenyellow;
-}
+
 .row4-2{
     display: grid;
     grid-template-columns:1.75fr 1fr 1.25fr  1fr ;
     height: 50%;
 }
-.s4{
+.s4,.s5,.s6,.s7{
     border: 1px solid red;
-}
-.s5{
-    border: 1px solid red;
-}
-.s6{
-    border: 1px solid red;
-}
-.s7{
-    border: 1px solid red; 
 }
 .row5{
     height: 100px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-.f1{
-    border: 1px solid red; 
-}
-.f2{
-    border: 1px solid red; 
-}
-.f3{
-    border: 1px solid red; 
-}
-.f4{
+.f1,.f2,.f3,.f4{
     border: 1px solid red; 
 }
