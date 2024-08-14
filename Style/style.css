@@ -55,6 +55,22 @@
 .s4,.s5,.s6,.s7{
     border: 1px solid red;
 }
+.s4-1{
+    height: 50%;
+    border-bottom: 1px solid green;
+}
+.s2-1{
+    height: 50%;
+    border-bottom: 1px solid red;
+}
+.s4-2{
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.s4-2-1,.s4-2-2,.s4-2-3,.s4-2-4{
+    border: 1px solid green;
+}
 .row5{
     height: 100px;
     display: grid;
