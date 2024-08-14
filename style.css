@@ -1,0 +1,94 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.container{
+    max-width: 90%;
+    border: 2px solid red;
+    margin:30px auto;
+}
+.row1{
+    height: 100px;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.logo{
+    border:1px solid brown;
+}
+.menu{
+   border: 1px solid darkgoldenrod;
+}
+.item{
+    border:1px solid crimson;
+}
+.row2{
+    height: 150px;
+    border: 1px solid burlywood;
+}
+.row3{
+    height: 250px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    border: 1px solid darkgreen;
+}
+.main{
+    border: 1px solid red;
+}
+.side-bar{
+    border:1px solid deepskyblue;
+}
+.row4{
+    border: 1px solid red;
+    height: 400px;
+}
+.row4-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom: 1px solid green;
+    height: 50%;
+}
+.s1{
+    border-right: 1px solid greenyellow;
+}
+.s2{
+    border-right: 1px solid greenyellow;
+}
+.s3{
+    border-right: 1px solid greenyellow;
+}
+.row4-2{
+    display: grid;
+    grid-template-columns:1.75fr 1fr 1.25fr  1fr ;
+    height: 50%;
+}
+.s4{
+    border: 1px solid red;
+}
+.s5{
+    border: 1px solid red;
+}
+.s6{
+    border: 1px solid red;
+}
+.s7{
+    border: 1px solid red; 
+}
+.row5{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.f1{
+    border: 1px solid red; 
+}
+.f2{
+    border: 1px solid red; 
+}
+.f3{
+    border: 1px solid red; 
+}
+.f4{
+    border: 1px solid red; 
+}
